@@ -18,5 +18,4 @@ describe('Counter Component', () => {
     const counterElement = screen.getByText(/Counter: 1/i);
     expect(counterElement).toBeInTheDocument();
   });
-
-  // Add more tests 
+});
